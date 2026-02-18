@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 50px;
+        }
+
+        .products {
+            background: white;
+            border: 1px solid ;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .products:hover {
+        transform: scale(1.05);
+        }
+
+        .products img {
+        width: 100%; height: 200px; object-fit: cover;
+        }
+
+        .price {
+        color: crimson; font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logoimg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="text-align: center; margin-top: 30px;">Featured Products</h2>
+
+    <div class="product-grid">
+        <div class="products">
+            <img src="img/redvelvetcake.jpg" alt="redvelvetcake">
+            <h3>Red Velvet Cake</h3>
+            <p class="price">RM 90.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/blackforestcake.jpg" alt="blackforestcake">
+            <h3>Black Forest Cake</h3>
+            <p class="price">RM 80.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/tiramisu.jpg" alt="tirmisu">
+            <h3>Tiramisu Cake</h3>
+            <p class="price">RM 85.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/fruitcake.jpg" alt="fruitcake">
+            <h3>Fruit Cake</h3>
+            <p class="price">RM 70.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/bread.jpg" alt="bread">
+            <h3>Bread</h3>
+            <p class="price">RM 4.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/swissroll.jpg" alt="swissroll">
+            <h3>Swiss Roll</h3>
+            <p class="price">RM 3.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/pie.jpg" alt="pie">
+            <h3>Chicken Pie</h3>
+            <p class="price">RM 2.50</p>
+        </div>
+
+        <div class="products">
+            <img src="img/tart.jpg" alt="tart">
+            <h3>Blueberry Tart</h3>
+            <p class="price">RM 2.50</p>
+        </div>
+
+        <div class="products">
+            <img src="img/croissant.jpg" alt="croissant">
+            <h3>Croissant</h3>
+            <p class="price">RM 4.00</p>
+        </div>
+
+        <div class="products">
+            <img src="img/cupcake.jpg" alt="cupcake">
+            <h3>Cupcake</h3>
+            <p class="price">RM 3.50</p>
+        </div>
+
+        <div class="products">
+            <img src="img/puff.jpg" alt="puff">
+            <h3>Puff</h3>
+            <p class="price">RM 2.50</p>
+        </div>
+
+        <div class="products">
+            <img src="img/doughnut.jpg" alt="doughnut">
+            <h3>Doughnut</h3>
+            <p class="price">RM 3.00</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Address: Sweet Delights Bakery</p>
+        <p>Opening Hours: 9AM - 9PM</p>
+        <p>Follow us on Instagram
+            <a href="https://instagram.com/uniselofficial">SweetDelightsBakery</a>
+        </p>
+    </footer>
+
+</body>
+</html>
